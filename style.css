@@ -102,17 +102,12 @@ h1, h2, h3, h4, h5, h6, p:hover{
 	font-weight: 900;
   font-family: 'Main' ;
 }
-.nav a{
-  text-decoration:none;
-  color:black;
-  font-family:cursive;
-}
-.naver .nav a{
+.naver .nav img{
   height: 60px;
   float:left;
   transition: 0.5s;
 }
-.naver .nav a:active{
+.naver .nav img:active{
   transform: scale(90%);
 }
 input::placeholder{
